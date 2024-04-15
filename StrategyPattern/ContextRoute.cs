@@ -16,6 +16,10 @@ namespace Strategy.StrategyPattern
             } 
         }
 
+        public ContextRoute()
+        {
+            
+        }
         public ContextRoute(IStrategy strategy)
         {
             _strategy=strategy;
